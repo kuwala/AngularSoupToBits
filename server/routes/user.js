@@ -13,7 +13,8 @@ var users = [
   {"id": 10, "username": "theSmith", "name": "Andrew Smith", "bio": "iOS & Web Developer at @intelity. @fullsail graduate.", "twitter_handle": "@fullsailor", "site": "fullsailor.com"},
   {"id": 11, "username": "DrewBarontini", "name": "Drew Barontini", "bio": "Front-end developer @codeschool, descendant of @envylabs, real-life extrovert, internet introvert.", "twitter_handle": "@drewbarontini", "site": "drewbarontini.com"},
   {"id": 12, "username": "JordanWade", "name": "Jordan Wade", "bio": "Designer, Illustrator, and Front-End Developer @codeschool", "twitter_handle": "@jjordanwade", "site": "jamesjordanwade.com"},
-  {"id": 13, "username": "AlyssaNicoll", "name": "Alyssa Nicoll", "bio": "Code School Teacher. Angular Lover. Scuba Diver.", "twitter_handle": "@AlyssaNicoll", "site": "alyssa.io"}
+  {"id": 13, "username": "AlyssaNicoll", "name": "Alyssa Nicoll", "bio": "Code School Teacher. Angular Lover. Scuba Diver.", "twitter_handle": "@AlyssaNicoll", "site": "alyssa.io"},
+  {"id": 14, "username": "kuwala", "name": "Daniel Sodapop", "bio": "The programing guy of this site. Woot woot.", "twitter_handle": "@kuwala", "site": "dan-iel.com"}
 ];
 
 var User = require('../models/user');

@@ -1,16 +1,64 @@
 <!DOCTYPE html>
-<html>
+<html ng-app="NoteSpot">
   <head>
     <meta charset="utf-8">
     <title>Noteapp</title>
     <link rel="stylesheet" href="assets/styles/bootstrap.css" media="screen" title="no title" charset="utf-8"></link>
     <link rel="stylesheet" href="assets/styles/bootstrap-theme.css" media="screen" title="no title" charset="utf-8"></link>
+    <link rel="stylesheet" href="assets/styles/da-styles.css" media="screen" title="no title" charset="utf-8"></link>
   </head>
   <body>
-    <h1>Angular Soup</h1>
+    <nav class="navbar navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <div class="navbar-brand">
+            <a href="/#/" >NoteSoup</a>
+          </div>
+        </div>
+        <!-- <ul class="nav navbar-nav">
+          <li><a href="#/notes">Notes</a></li>
+          <li><a href="#/users">Users</a></li>
+        </ul> -->
+        <da-page-nav></da-page-nav>
+      </div>
+    </nav>
+    <div ng-view class="container-fluid"></div>
   </body>
+
+  <!--Vender -->
+
+  <script src="http://crypto-js.googlecode.com/svn/tags/3.1.2/build/rollups/md5.js" charset="utf-8"></script>
   <script src="assets/javascript/vender/jquery-2.2.2.js" charset="utf-8"></script>
   <script src="assets/javascript/vender/angular.js" charset="utf-8"></script>
   <script src="assets/javascript/vender/angular-route.js" charset="utf-8"></script>
   <script src="assets/javascript/vender/angular-resource.js" charset="utf-8"></script>
+  <script src="assets/javascript/vender/angular-resource.js" charset="utf-8"></script>
+  <script src="assets/javascript/vender/ngGravatar.js" charset="utf-8"></script>
+  <script src="assets/javascript/vender/bootstrap.js" charset="utf-8"></script>
+
+  <!-- App -->
+  <script src="assets/javascript/app.js" charset="utf-8"></script>
+  <script src="assets/javascript/routes.js" charset="utf-8"></script>
+
+  <!-- Controllers -->
+  <script src="assets/javascript/controllers/noteIndexController.js" charset="utf-8"></script>
+  <script src="assets/javascript/controllers/noteShowController.js" charset="utf-8"></script>
+  <script src="assets/javascript/controllers/noteEditController.js" charset="utf-8"></script>
+  <script src="assets/javascript/controllers/noteCreateController.js" charset="utf-8"></script>
+  <script src="assets/javascript/controllers/userShowController.js" charset="utf-8"></script>
+  <script src="assets/javascript/controllers/userIndexController.js" charset="utf-8"></script>
+
+  <!-- Services -->
+  <script src="assets/javascript/services/note.js" charset="utf-8"></script>
+  <script src="assets/javascript/services/user.js" charset="utf-8"></script>
+  <script src="assets/javascript/services/category.js" charset="utf-8"></script>
+
+  <!-- Filters -->
+  <script src="assets/javascript/filters/categoryFilter.js" charset="utf-8"></script>
+  <!-- Directives -->
+  <script src="assets/javascript/directives/daPageNav.js" charset="utf-8"></script>
+  <script src="assets/javascript/directives/daCategorySelector.js" charset="utf-8"></script>
+  <script src="assets/javascript/directives/title.js" charset="utf-8"></script>
+
+
 </html>

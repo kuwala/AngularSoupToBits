@@ -11,7 +11,8 @@ var users = [
   {"id": 9,  "email": "olivier@codeschool.com", "username": "OlivierLacan","name": "Olivier Lacan","bio": "Software bricoleur at @codeschool, word wrangler, scientific skeptic, and logic lumberjack.","twitter_handle": "@olivierlacan","site": "olivierlacan.com"},
   {"id": 11, "email": "drew@codeschool.com",  "username": "DrewBarontini", "name": "Drew Barontini", "bio": "Front-end developer @codeschool, descendant of @envylabs, real-life extrovert, internet introvert.", "twitter_handle": "@drewbarontini", "site": "drewbarontini.com"},
   {"id": 12, "email": "jordan@codeschool.com",  "username": "JordanWade", "name": "Jordan Wade", "bio": "Designer, Illustrator, and Front-End Developer @codeschool", "twitter_handle": "@jjordanwade", "site": "jamesjordanwade.com"},
-  {"id": 13, "email": "alyssa@codeschool.com",  "username": "AlyssaNicoll", "name": "Alyssa Nicoll", "bio": "Code School Teacher. Angular Lover. Scuba Diver.", "twitter_handle": "@AlyssaNicoll", "site": "alyssa.io"}
+  {"id": 13, "email": "alyssa@codeschool.com",  "username": "AlyssaNicoll", "name": "Alyssa Nicoll", "bio": "Code School Teacher. Angular Lover. Scuba Diver.", "twitter_handle": "@AlyssaNicoll", "site": "alyssa.io"},
+  {"id": 14, "username": "kuwala", "name": "Daniel Sodapop", "bio": "The programing guy of this site. Woot woot.", "twitter_handle": "@kuwala", "site": "dan-iel.com"}
 ];
 
 module.exports = {
