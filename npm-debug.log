@@ -1,28 +1,21 @@
 0 info it worked if it ends with ok
-1 verbose cli [ '/Users/adamrensel/.nvm/v0.10.28/bin/node',
-1 verbose cli   '/Users/adamrensel/.nvm/v0.10.28/bin/npm',
-1 verbose cli   'start' ]
-2 info using npm@1.4.9
-3 info using node@v0.10.28
-4 verbose run-script [ 'prestart', 'start', 'poststart' ]
-5 info prestart note-wrangler@0.0.0
-6 info start note-wrangler@0.0.0
-7 verbose unsafe-perm in lifecycle true
-8 info note-wrangler@0.0.0 Failed to exec start script
-9 error note-wrangler@0.0.0 start: `node app.js`
-9 error Exit status 8
-10 error Failed at the note-wrangler@0.0.0 start script.
-10 error This is most likely a problem with the note-wrangler package,
-10 error not with npm itself.
-10 error Tell the author that this fails on your system:
-10 error     node app.js
-10 error You can get their info via:
-10 error     npm owner ls note-wrangler
-10 error There is likely additional logging output above.
-11 error System Darwin 13.4.0
-12 error command "/Users/adamrensel/.nvm/v0.10.28/bin/node" "/Users/adamrensel/.nvm/v0.10.28/bin/npm" "start"
-13 error cwd /Users/adamrensel/Documents/envylabs/AngularStB
-14 error node -v v0.10.28
-15 error npm -v 1.4.9
-16 error code ELIFECYCLE
-17 verbose exit [ 1, true ]
+1 verbose cli [ '/usr/local/Cellar/node/6.1.0/bin/node',
+1 verbose cli   '/usr/local/bin/npm',
+1 verbose cli   'search' ]
+2 info using npm@3.8.6
+3 info using node@v6.1.0
+4 verbose stack Error: search must be called with arguments
+4 verbose stack     at EventEmitter.search (/usr/local/lib/node_modules/npm/lib/search.js:53:15)
+4 verbose stack     at Object.commandCache.(anonymous function) (/usr/local/lib/node_modules/npm/lib/npm.js:114:13)
+4 verbose stack     at EventEmitter.<anonymous> (/usr/local/lib/node_modules/npm/bin/npm-cli.js:74:30)
+4 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:67:7)
+4 verbose stack     at process._tickCallback (internal/process/next_tick.js:98:9)
+5 verbose cwd /Users/Daniel/Projects/AngularSoup
+6 error Darwin 15.4.0
+7 error argv "/usr/local/Cellar/node/6.1.0/bin/node" "/usr/local/bin/npm" "search"
+8 error node v6.1.0
+9 error npm  v3.8.6
+10 error search must be called with arguments
+11 error If you need help, you may report this error at:
+11 error     <https://github.com/npm/npm/issues>
+12 verbose exit [ 1, true ]
